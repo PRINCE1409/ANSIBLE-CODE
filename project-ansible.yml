@@ -1,4 +1,4 @@
-- hosts: node2
+- hosts: 192.168.43.1
   tasks:
   - name: Configuring yum for Docker Repository
     yum_repository:
